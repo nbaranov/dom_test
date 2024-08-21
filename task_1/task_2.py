@@ -35,7 +35,7 @@ def max_consecutive_ones(arr: str) -> int:
 if __name__ == "__main__":
     # Get agrument during run script
     if len(sys.argv) > 1:
-        name = sys.argv[1]
+        name = sys.argv[0]
         value = sys.argv[1]
         print(f'Script {name} running with argument: "{value}"')
         result = max_consecutive_ones(value)
